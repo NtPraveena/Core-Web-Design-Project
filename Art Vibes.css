@@ -1,0 +1,93 @@
+/*Header section*/
+
+	img{	
+		
+		}
+	@media only screen and (min-width:600px){
+	}		
+/*Navbar*/
+.navbar{
+		background-color:black;
+		font-size:25px;
+	}
+/*menu_bar*/	
+.menu_bar{
+		
+		background-color:black;
+		height:100px;
+		width:100%;
+		display:flex;
+		align-items:center;
+		border:3px solid black;
+		Justify-content: Space-between;
+		padding:0 3%;
+		}
+
+	.menu_bar ul{
+		list-style:none;
+		display:flex;
+		}
+	.menu_bar ul li{
+			padding:0PX 20PX;
+			position: relative;
+			}
+	.menu_bar ul li a{
+		color: white;
+		text-decoration:none;
+		font-size:20px;
+		
+	transition: all 0.3s;
+		}
+	.menu_bar ul li a:hover{	
+		color:orange;
+		}
+	.fa {
+	float: right;
+	margin-left: 10px;
+	padding-top: 3px;
+		}
+	/* dropdown menu style */
+	.dropdown-menu {
+	display: none;
+	}
+	.menu_bar ul li:hover .dropdown-menu {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color:black;
+	}
+	.menu_bar ul li:hover .dropdown-menu ul {
+	display: block;
+	margin: 6px;
+	}
+	.menu_bar ul li:hover .dropdown-menu ul li {
+	width: 150px;
+	padding: 8px;
+	}
+
+	/*Cards Section*/
+	#head1{
+		color:green;
+		text-align:center;
+		text-shadow:2px 2px 5px grey;
+}
+   #head1:hover{
+	color:blue;
+}
+	#head2{
+		color:green;
+		text-align:center;
+		text-shadow:2px 2px 5px grey;
+}
+	#head3{
+		color:green;
+		text-align:center;
+		text-shadow:2px 2px 5px grey;
+}
+	
+	.footer-links{
+	font-family: RenosRough-Regular;
+	font-size: 12px;
+	padding-left: 10px;
+}
